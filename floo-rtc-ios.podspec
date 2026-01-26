@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'floo-rtc-ios'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.summary          = '蓝莺 IM RTC SDK'
 
 
@@ -26,7 +26,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.lanyingim.com/'
   s.license          = { :type => 'MIT', :file => 'floo-rtc-ios-release/LICENSE' }
   s.author           = { 'maximtop’' => 'im.maxim.top@gmail.com' }
-  s.source           = { :http => 'https://package.maximtop.com/floo-rtc-ios-1.2.0-20231121.zip' }
+  s.source           = { :http => 'https://github.com/maxim-top/floo-rtc-ios/releases/download/v1.3.0/floo-rtc-ios-1.3.0-20260127.zip' }
+  
 
   s.ios.deployment_target = '9.0'
 
