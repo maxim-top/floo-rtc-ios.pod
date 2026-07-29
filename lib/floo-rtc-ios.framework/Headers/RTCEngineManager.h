@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import <floo-ios/floo_proxy.h>
+#import "AdaptiveVideoConfig.h"
 
 typedef enum : NSUInteger {
     kMaxEngine = 0x1,
@@ -15,5 +16,8 @@ typedef enum : NSUInteger {
  @return 返回工厂对象
  */
 + (BMXRTCEngine *)engineWithType:(ERtcEngineType)type;
++ (void)setAdaptiveVideoConfig:(AdaptiveVideoConfig *)config type:(ERtcEngineType)type;
++ (void)setAdaptiveVideoEnabled:(BOOL)enabled type:(ERtcEngineType)type;
++ (BOOL)isAdaptiveVideoEnabledWithType:(ERtcEngineType)type;
 
 @end
